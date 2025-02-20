@@ -5,6 +5,6 @@ import { pilots } from 'src/data/pilots';
 
 @Module({
   controllers: [PilotsController],
-  providers: [PilotsService, {provide: 'pilots', useValue: pilots}],
+  providers: [PilotsService, { provide: 'pilots', useValue: pilots }],
 })
 export class PilotsModule {}

@@ -3,9 +3,9 @@ import { TeamsService } from './teams.service';
 
 @Controller('teams')
 export class TeamsController {
-    constructor(private readonly TeamsService:TeamsService){}
+  constructor(private readonly TeamsService: TeamsService) {}
   @Get()
   getTeams() {
-    return this.TeamsService.
+    return this.TeamsService;
   }
 }
